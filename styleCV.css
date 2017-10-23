@@ -1,0 +1,313 @@
+/*background-color: #EBECEB;*/
+::selection {
+    background: rgba(226, 93, 51, 0.88);
+}
+
+.backgroundtop {
+    width: 100%;
+    background: #ff5e62;
+    background-attachment: fixed;
+    background-image: url("./source/BackTop.png");
+    background-position: center;
+    background-size: cover;
+    /*background: linear-gradient(to right,  #ff5e62 0%,#ff9966 100%);*/
+    /*background: -moz-linear-gradient(left,  #ff5e62 0%, #ff9966 100%);*/
+    /*background: -webkit-linear-gradient(left,  #ff5e62 0%,#ff9966 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e62', endColorstr='#ff9966',GradientType=1 );*/
+}
+
+.backgroundblack {
+    width: 100%;
+    background-color: #292b2c;
+}
+
+.backgroundimg1 {
+    width: 100%;
+    background-color: #292b2c;
+    background-attachment: fixed;
+    background-image: url("./source/martin-wessely.jpg");
+}
+
+.backgroundwhite {
+    width: 100%;
+    color: #292b2c;
+    background-color: #FFFFFF;
+}
+.black{
+    color: #292b2c;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+header {
+    color: #FFFFFF;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 5vh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.moi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.16);
+}
+
+.centerblock {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bouton {
+    color: #E25D33;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.orange {
+    color: #E25D33;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.hover {
+    color: #E25D33;
+    padding: 5px 10px;
+    transition: 250ms;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.hover:hover {
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 250ms;
+    background-color: #E25D33;
+
+}
+
+.imageinter {
+    border-radius: 25px;
+}
+
+.margetop {
+    margin-top: 1%;
+}
+
+.margetop3 {
+    margin-top: 3%;
+}
+
+.margebot {
+    margin-bottom: 1%;
+}
+
+.navbar {
+    /*z-index: 10; Pour changer la couche (Valeur +: Premier plan)*/
+    margin-top: 1%;
+    color: #E25D33;
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.size200 {
+    font-weight: 200;
+}
+
+
+.menu {
+    color: #E25D33;
+    padding: 5px 10px;
+    transition: 250ms;
+    font-size: 1.5em;
+    border-radius: 50%;
+    background-color: rgba(236, 232, 222, 0);
+}
+
+.menu:hover {
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 50%;
+    transition: all 250ms;
+    background-color: #E25D33;
+
+}
+
+.ancre {
+    color: #E25D33;
+    padding: 5px 10px;
+    transition: 250ms;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: rgba(236, 232, 222, 0);
+}
+
+.ancre:hover {
+    color: #FFFFFF;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: all 250ms;
+    background-color: #E25D33;
+
+}
+
+
+
+
+
+/*.row {
+    border: 4px solid red;
+}
+
+.container {
+    border: 4px solid blue;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Template https://bootsnipp.com/snippets/y83OV*/
+
+.progress{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 25px;
+}
+.skill-name{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 10px;
+    padding-left:10px;
+    padding-top: 2.5px;
+    float:left;
+    font-size: 1.1em;
+}
+
+.progress .progress-bar, .progress .progress-bar.progress-bar-default {
+    background-color: #E25D33 ;
+}
+.progress  .progress-bar{
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1.0s;
+}
+
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+/*media Queries*/
+
+@media (min-width: 768px) and (max-width: 991px){
+    #about-section h1{font-size: 2.0em;}
+    .nav-pills li a{font-size: 1.3em !important;}
+
+
+}
+
+
+@media (max-width: 767px){
+    #about-section h1{
+        margin-top: 90px !important;
+        font-size: 1.5em;}
+    .nav-pills li a{font-size: 1.3em !important;}
+    .about-me-text{font-size: 1.0em;}
+    .btn-tab .btn-overide{font-size: 0.8em;
+        width: 200px;
+    }
+    #about-section{
+        height: 750px;
+    }
+    #about-section h1{
+        margin-top: 50px;
+
+    }
+}
+@media (max-width: 456px){
+    #about-section{
+        height: 730px;
+    }
+    .nav-pills li a{font-size: 0.9em !important;}
+}
+
+@media(max-width: 648px){
+    #about-section{
+        height: 800px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 553px){
+    #about-section{
+        height: 900px;
+    }
+}
+
+@media (max-width: 479px){
+    .btn-hire{
+        margin-top: 20px!important;
+
+    }
+    .btn-contact{
+        margin-top: 10px !important;
+    }
+
+    #about-section{
+        height: 950px;
+    }
+}
+
+@media (max-width: 442px){
+    #about-section{
+        height: 980px;
+    }
+}
+
+@media (max-width: 411px){
+    #about-section{
+        height: 1020px;
+    }
+}
+
+@media (max-width: 373px){
+    #about-section{
+        height: 1050px;
+    }
+}
