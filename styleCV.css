@@ -7,7 +7,7 @@
     width: 100%;
     background: #ff5e62;
     background-attachment: fixed;
-    background-image: url("./source/BackTop.png");
+    background-image: url("./source/branko-stancevic-417172.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -21,6 +21,17 @@
     width: 100%;
     background-color: #292b2c;
     background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url("./source/annie-spratt-370971.jpg");
+}
+
+.backgroundimg2 {
+    width: 100%;
+    background-color: #292b2c;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     background-image: url("./source/martin-wessely.jpg");
 }
 
