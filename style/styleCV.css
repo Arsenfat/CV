@@ -72,7 +72,7 @@ html {
   align-items: flex-start;
 }
 
-.profilePicture {
+.infoBoxContainer {
   order: 0;
   flex: 0 1 auto;
   align-self: center;
@@ -80,7 +80,7 @@ html {
   margin-bottom: 64px
 }
 
-.profilePicture > img {
+.infoBox > img {
   border-radius: 50%;
   height: 256px;
   width: 256px
