@@ -80,7 +80,7 @@ html {
   margin-bottom: 64px
 }
 
-.infoBox > img {
+.infoBox>img {
   border-radius: 50%;
   height: 256px;
   width: 256px

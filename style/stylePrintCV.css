@@ -80,7 +80,7 @@ html {
   margin-bottom: 64px
 }
 
-.profilePicture > img {
+.profilePicture>img {
   border-radius: 50%;
   height: 256px;
   width: 256px
