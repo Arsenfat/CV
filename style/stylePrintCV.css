@@ -21,7 +21,6 @@ html {
 
 .mainItem {
   order: 0;
-  flex: 0 0 auto;
   align-self: stretch;
 }
 
@@ -72,7 +71,7 @@ html {
   align-items: flex-start;
 }
 
-.profilePicture {
+.infoBoxContainer {
   order: 0;
   flex: 0 1 auto;
   align-self: center;
@@ -80,8 +79,53 @@ html {
   margin-bottom: 64px
 }
 
-.profilePicture>img {
+.infoBox>img {
   border-radius: 50%;
   height: 256px;
   width: 256px
+}
+
+.contentRows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+}
+
+.contentRow {
+  order: 0;
+  flex: 0 0 125px;
+  align-self: auto;
+}
+
+.contentRow:nth-child(2) {
+  flex: 1 0 auto;
+}
+
+.line {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #000;
+  margin: auto;
+}
+
+.contentHeaders {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: stretch;
+}
+
+.contentHeader {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+
+.contentHeader:nth-child(3) {
+  flex: 1 1 auto;
 }
