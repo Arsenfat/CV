@@ -85,3 +85,22 @@ html {
   height: 256px;
   width: 256px
 }
+
+.contentRows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.contentRow {
+    order: 0;
+    flex: 0 0 125px;
+    align-self: auto;
+}
+
+.contentRow:nth-child(2) {
+    flex: 1 0 auto;
+}
